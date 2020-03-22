@@ -39,6 +39,7 @@ public class CurrencyConverterActivity extends AppCompatActivity {
         currencyNamesTo.setAdapter(adapter2);
 
 
+
         editText = findViewById(R.id.editTextCurrencyConverterActivity);
         backButton = findViewById(R.id.backButtonCurrencyConverter);
         backButton.setOnClickListener(new View.OnClickListener() {
