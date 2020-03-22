@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgeCalculatorResultActivity">
+
+    <Button
+        android:id="@+id/backButtonAgeCalculatorResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Birth Date : "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Date : "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Age : "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/birthDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="16 / 01 / 2020"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        />
+    <TextView
+        android:id="@+id/currentDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="16 / 01 / 2020"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="200dp"
+        />
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="170 year 11 month 26 day"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"
+        />
+
+</RelativeLayout>

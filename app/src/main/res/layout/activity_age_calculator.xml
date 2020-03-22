@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgeCalculatorActivity">
+
+    <Button
+        android:id="@+id/backButtonAgeCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="20dp"
+        android:text="Choose Your Birth Date"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <DatePicker
+        android:id="@+id/datePickerAgeCalculator"
+        android:layout_width="335dp"
+        android:layout_height="419dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="45dp" />
+    <Button
+        android:id="@+id/calculateAgeButtonAgeCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Age"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+
+        />
+
+
+
+</RelativeLayout>

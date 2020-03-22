@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Assignment 2</string>
+    <string-array name="currencyNames">
+
+        <item>Taka</item>
+        <item>Rupee</item>
+        <item>Euro</item>
+
+
+
+    </string-array>
+</resources>

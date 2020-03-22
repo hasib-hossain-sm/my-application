@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeMsg"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Welcome To My Mini Project"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AgeCalculatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/welcomeMsg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="-250dp"
+        android:text="Age Calculator"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/CurrencyConverterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/AgeCalculatorButton"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="-60dp"
+        android:text="Currency Converter"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
